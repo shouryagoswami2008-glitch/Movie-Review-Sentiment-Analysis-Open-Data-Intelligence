@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 
 # Replace with your actual TMDB API key
-TMDB_API_KEY = "e0976710fee8192df4fa5ad8ab91f40d"
+TMDB_API_KEY = ""
 
 def fetch_movie_reviews(movie_id):
     url = f"https://api.themoviedb.org/3/movie/{movie_id}/reviews"
